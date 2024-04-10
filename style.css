@@ -6,12 +6,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:rgb(81, 85, 92);
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
 }
 
 .container {
-    background: rgb(228,251,152);
-    background: linear-gradient(90deg, rgba(228,251,152,1) 26%, rgba(0,255,205,1) 71%, rgba(2,115,105,1) 87%, rgba(3,2,23,1) 100%);
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     padding: 20px;
     width: 100%;
     max-width: 600px;
@@ -22,7 +22,7 @@ body {
 h2 {
     text-align: center;
     margin-bottom: 30px;
-    color: rgb(81, 85, 92);
+    color:black
 }
 
 form {
@@ -35,7 +35,8 @@ label {
     display: block;
     width: 100%;
     margin-bottom: 5px;
-    color:black
+    color: black;
+    font-family:bold;
 }
 
 input[type="text"],
