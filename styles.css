@@ -4,6 +4,32 @@ body {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
 }
+.heading {
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 24px; /* Font size */
+    text-align: center; /* Text alignment */
+    margin-bottom: 40px; /* Margin from the top */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Letter spacing */
+    text-shadow: 2px 2px 4px rgba(235, 157, 0, 0.3); /* Text shadow */
+}
+.heading1 {
+    color: #333; /* Text color */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Font family */
+    font-size: 23px; /* Font size */
+    text-align: center; /* Text alignment */
+    margin-bottom: 40px; /* Margin from the top */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Letter spacing */
+    text-shadow: 2px 2px 4px rgba(255, 0, 238, 0.3); /* Text shadow */
+    font-weight: bold; /* Bold font */
+     /* Italic font style */
+    text-decoration: none; /* Background color */
+     /* Box shadow */
+}
+
+
 
 .container {
     background-color: #fff; /* White background for container */
@@ -48,9 +74,7 @@ ul{
 
 .one{
     display: flex;
-    margin-left: 25%;
-    position: relative;
-    top: 10%;}
+}
 ul{
     text-align: left;
 }
